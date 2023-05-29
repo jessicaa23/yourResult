@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    padding: 25%;
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 17rem;
+
+    width: 27rem;
+    height: 390px;
+
+    background: linear-gradient(rgb(85, 85, 206), rgb(38, 35, 240));
+    border-radius: 3rem;
+    align-content: flex-end;
+}
+
+.caixa h1 {
+    font-size: 18px;
+    color: white;
+}
+
+.caixa p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.caixa .bola {
+  
+    width: 130px;
+    height: 130px;
+
+    border-radius: 7rem;
+    background-color: aliceblue;
+}
